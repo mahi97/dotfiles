@@ -7,6 +7,7 @@
 	email = mohammadmahdi76@gmail.com
 [core]
 	excludesfile = /Users/Rahimi/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
