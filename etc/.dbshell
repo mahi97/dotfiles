@@ -1,0 +1,27 @@
+db
+db.help()
+db.stats()
+use mahi
+db.stats()
+db.movie.insert({"name" : "Mahi"})
+show db
+show dbs
+db.dropDatabase()
+db.createCollection("MahiCollcection")
+db.createCollection("MahiCollcection2", {max : 20})
+show collections
+MahiCollcection
+MahiCollcection2
+MahiCollcection23
+db.createCollection("mycol", { capped : true, autoIndexID : true, size : 20, max 10})
+db.createCollection("mycol", { capped : true, autoIndexID : true, size : 20, max : 10})
+db.createCollection("mycol", { capped : true, size : 20, max : 10})
+db.createCollection("mycol", { capped : true, autoIndexID : true, size : 6142800, max : 1000})
+db.createCollection("mycol2", { capped : true, autoIndexID : true, size : 6142800, max : 1000})
+db.createCollection("mycol2", { capped : true, size : 6142800, max : 1000})
+db.mycol.insert({"name" : "Mahi", "age" : 18})
+db.fish.insert({"name" : "FISH", "age" : 10})
+show collections
+db.fish.drop()
+show collection
+show collections

@@ -1,0 +1,35 @@
+{
+  "difftool.sourcetree.path": [
+    ""
+  ], 
+  "color.ui": [
+    "auto"
+  ], 
+  "filter.lfs.clean": [
+    "git lfs clean %f"
+  ], 
+  "user.email": [
+    "mohammadmahdi76@gmail.com"
+  ], 
+  "core.excludesfile": [
+    "/Users/Rahimi/.gitignore_global"
+  ], 
+  "mergetool.sourcetree.trustexitcode": [
+    "true"
+  ], 
+  "filter.lfs.smudge": [
+    "git lfs smudge %f"
+  ], 
+  "user.name": [
+    "mahi97"
+  ], 
+  "difftool.sourcetree.cmd": [
+    "opendiff \"$LOCAL\" \"$REMOTE\""
+  ], 
+  "filter.lfs.required": [
+    "true"
+  ], 
+  "mergetool.sourcetree.cmd": [
+    "/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\""
+  ]
+}
